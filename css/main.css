@@ -890,6 +890,10 @@ a {
 	margin-right:0;
 } 
 
+#sponsors i {
+	color:#dd5c59;
+}
+
 .eventSponsors, .eventPartners {
 	justify-content: center;
 	align-items: center;
