@@ -258,8 +258,8 @@ Main Components
 @media only screen and (min-width: 1000px) {
   .cd-schedule .events {
     /* 60px is the .timeline element width */
-    width: calc(100% - 60px);
-    margin-left: 60px;
+    width: calc(100% - 70px);
+    margin-left: 70px;
   }
 }
 
@@ -362,8 +362,7 @@ Main Components
 
 .cd-schedule .single-event[data-event="event-8"],
 .cd-schedule [data-event="event-8"] .header-bg {
-  background:
-#ea413b;
+  background:#ea413b;
 }
 
 .cd-schedule .single-event[data-event="event-8"]:hover {

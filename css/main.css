@@ -872,12 +872,11 @@ a {
 /* SPONSORS */
 
 #sponsors {
-	margin:30px 0;
-	padding:70px 0 90px 0;
+/*	margin:30px 0;*/
+	padding:20px 0 90px 0;
 }
 
 .sponsor {
-	border:2px solid #dd5c59;
 	margin:0 5px;
 	padding:10px;
 	text-align:center;
@@ -893,6 +892,17 @@ a {
 
 #sponsors i {
 	color:#dd5c59;
+}
+
+.eventSponsors, .eventPartners {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.sponsor_titles {
+	padding-top: 1%;
+	padding-bottom: 2%;
 }
 
 
