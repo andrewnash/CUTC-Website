@@ -87,6 +87,23 @@ a {
 	background:#dd5c59;
 }
 
+/*Header*/
+
+.header {
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+	background-image: url('../img/backingEast.png');
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
 
 /* NAVBAR */
 
@@ -101,8 +118,8 @@ a {
 	z-index:1041;
 	width:100%;
 	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-  transition: background .5s ease-in-out,padding .5s ease-in-out;
+  	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  	transition: background .5s ease-in-out,padding .5s ease-in-out;
 }
 
 .navbar-custom a {
