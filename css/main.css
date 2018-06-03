@@ -118,8 +118,8 @@ a {
 	z-index:1041;
 	width:100%;
 	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-  	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-  	transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
 }
 
 .navbar-custom a {
@@ -127,18 +127,18 @@ a {
 }
 
 .navbar-custom .navbar-nav > li > a:hover {
-	color:#dd5c59;
+	color:#d85e57;
 	background:transparent;
 }
 
 .navbar-custom .navbar-nav > li > a:active,
 .navbar-custom .navbar-nav > li > a:focus {
-	color:#dd5c59;
+	color:#d85e57;
 	background:transparent;
 }
 
 .navbar-custom .icon-bar {
-	background:#dd5c59;
+	background:#d85e57;
 }
 
 .sticky-wrapper {
@@ -153,16 +153,16 @@ a {
 
 .is-sticky .navbar-custom {
 	width:100%;
-	background:#262626;
+	background-image: url("../assets/nav-backing-new.png");
+	background-size: cover;
 	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-  	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
 	transition: background .5s ease-in-out,padding .5s ease-in-out;
 }
 
 .is-sticky a {
 	color:#ffffff;
 }
-
 
 /* navbar effect */
 
@@ -194,6 +194,7 @@ a {
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
 }
+
 
 
 /* HIGHLIGHT */
@@ -243,10 +244,15 @@ a {
 /* INFO */
 
 #info {
-	padding:70px 0 90px 0;
+	padding:70px 0 00px 0;
 }
 
 #event_info {
+	/* color: #dedede; */
+	color: #FFFFFF;
+}
+
+#FAQ {
 	/* color: #dedede; */
 	color: #FFFFFF;
 }
@@ -702,7 +708,7 @@ a {
 	background-size: cover;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	height:310px;
+	height:100px;
 	position:relative;
 	padding:0;
 }
@@ -716,7 +722,7 @@ a {
 }
 
 #funfacts .item {
-	margin:240px 0 0 0;
+	margin:20px 0 0 0;
 	display:table;
 }
 
@@ -755,9 +761,9 @@ a {
 /* REGISTER */
 
 #register {
-	background:#f5f5f5;
+	/*background:#f5f5f5;*/
 	border-bottom:1px solid #f0f0f0;
-	padding:70px 0 90px 0;
+	padding:100px 0 60px 0;
 }
 
 #price-carousel {
@@ -1096,8 +1102,9 @@ textarea {
 }
 
 .button-big {
-	padding:10px 18px;
-	font-size:21px;
+	margin-top: 50px;
+	padding:25px 100px;
+	font-size:28px;
 }
 
 .button-line-light {
