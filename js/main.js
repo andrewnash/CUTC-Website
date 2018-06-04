@@ -408,7 +408,7 @@ jQuery(document).ready(function($) {
 		drag_block_vertical: false,
 								
 								
-		keyboardNavigation:"on",
+		keyboardNavigation:"off",
 		
 		navigationHAlign:"center",
 		navigationVAlign:"bottom",
