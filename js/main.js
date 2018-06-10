@@ -510,11 +510,11 @@ jQuery(document).ready(function($) {
 	});
     
     //LOAD MORE
-    $('#list-speaker li:lt(12)').show();
+    $('#list-speaker li:lt(10)').show();
     
     $('#loadmore').on("click", function () {
-    	$('#list-speaker li:lt(12)').fadeIn();
-    	$('#list-speaker li:lt(12)').show();
+    	$('#list-speaker li:lt(10)').fadeIn();
+    	$('#list-speaker li:lt(10)').show();
     });
     
     //FAQ TOGGLE 

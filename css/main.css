@@ -346,6 +346,15 @@ a {
 	margin:0;
 }
 
+.speaker .companysmall {
+	color:#999999;
+	font-family:'Open sans';
+	font-size:10px;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	margin:14px;
+}
+
 #speakers .owl-buttons {
 	position: absolute;
 	font-size: 10px;
