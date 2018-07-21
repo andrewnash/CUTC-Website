@@ -618,7 +618,7 @@ a {
 }
 
 #venue .venue {
-	background-image: url(../img/Campus_above.jpg);
+	background-image: url(../img/optimized/Campus_above.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -878,7 +878,7 @@ a {
 
 #testimonial {
 	background:#dd5c59;
-	background-image: url(../img/CUTC_Martin-111small.jpg);
+	background-image: url(../img/optimized/CUTC_Martin-111small.jpg);
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-position: center;
